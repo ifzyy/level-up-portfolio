@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+    --font: Preahvihear;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #11071F;
+  ;
+}
+
+.hero-image {
+  border-radius: 431px;
+  background: radial-gradient(50% 50.00% at 50% 50.00%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
+  width: 385px;
+  height: 431px;
+margin-left: 10%;
+
+}
+
+nav {
+  background: #1A0B2E;
+  box-shadow: 0px 6px 22px -3px rgba(0, 0, 0, 0.10);
+}
+.hero-section-one {
+  position: relative;
+}
+.hero-section-one-text {
+  position: absolute;
+  top: 0;
+  left: 27%;
+  display:flex;
+  align-items: center;
+}
+.Preahvihear{
+  font-family: Preahvihear;
+  font-size: 17px;
+  font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.34px;
+}
+.Preahvihear-two{
+  color: #FFF;
+    font-family: Preahvihear;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.664%;
+    letter-spacing: 1px;
+}
+.cover {
+  color: #7127BA;
+    font-family: Preahvihear;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126.664%;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    padding: 5px;
+    transform: rotate(-4.744deg);
+    border-radius: 50%;
+}
+.Preahvihear-three{
+  color: #FFF;
+    
+    font-family: Preahvihear;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.22px;
+}
+.web{
+  color: #FFF;
+    font-family: Preahvihear;
+  
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.42px;
+}
+.john{
+    color: #7127BA;
+      font-family: Preahvihear;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 1px;
+}
+.one{
+    font-family: Preahvihear;
+}
