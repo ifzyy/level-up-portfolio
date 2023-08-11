@@ -41,7 +41,7 @@ function Hero() {
 
 
 
-      <h2 className="text-5xl text-center mb-4 flex items-center justify-center gap-5" >I am a <span >
+      <h2 style={{marginLeft: "20%", marginTop: "3%"}} className="text-5xl  ml-6 flex  mb-4  gap-5" >I am a <span >
         <Typewriter
           options={{
             strings: ['Ruby developer.', 'Node js developer.', "Fullstack developer.", "Musician."],
@@ -50,16 +50,16 @@ function Hero() {
           }}
         />
       </span></h2>
-      <p className="web flex items-center gap-3 justify-center">Currently i am a student mentor at  <span className="flex items-center gap-1" style={{ color: "#7127BA;" }} > < Image src={logo} width="20" alt="hero image" />Microverse.</span> </p>
+      <p className="web flex  gap-3 " style={{ marginLeft: "20%"}}>Currently i am a student mentor at  <span className="flex items-center gap-1" style={{ color: "#7127BA;" }} > < Image src={logo} width="20" alt="hero image" />Microverse.</span> </p>
 
-      <div className="hero-section-three mt-8 flex flex-col gap-14 justify-center items-center">
+      <div className="hero-section-three mt-8 flex flex-col gap-14 ">
 
-        <p className="text-center one mt-5" style={{
+        <p className=" one mt-5" style={{
           color: "#FFF",
-          fontFamily: " Preahvihear sans-serif" ,
           fontSize: " 22px",
-          lineHeight: " normal",
-          letterSpacing: "1.44px"
+          lineHeight: " 30px",
+          letterSpacing: "1.44px",
+          marginLeft: "20%"
         }}>
           A full stack web developer, functioning in the industry for 2+ years now.<br />
           I make meaningful and delightful digital product that creates an equilibrum <br />between userneeds and business goals
