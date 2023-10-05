@@ -138,3 +138,14 @@ nav {
   margin-top: 20px;
 }
 
+.box {
+  height: 300px;
+  width: 118px;
+}
+
+.box .vector {
+  height: 301px;
+  position: fixed;
+
+  width: 119px;
+}
